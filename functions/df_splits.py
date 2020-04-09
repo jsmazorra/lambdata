@@ -11,9 +11,7 @@ def df_splits(df):
     # train and val (test_size=0.20)
     train, val = train_test_split(train, test_size=0.2, random_state=42)
 
-
-    # Split the dataframes into their respective X (feature) matrices and y (target) vector
-
-    
+    # Split the dataframes into their respective X (feature) matrices and y
+    # (target) vector
 
     return train, test, val
